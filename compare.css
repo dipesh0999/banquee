@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+.main-2{
+    background-color: #E8F2EE;
+    height: 472px;
+    margin-bottom: 100px;
+}
+.compare-cards{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards-contain{
+    width: 700px;
+    height: 180px;
+}
+.h5-card{
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+.h1-card{
+    height: 176px;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 110%;
+}
+.main-3{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.cards-img{
+    width: 512px;
+    height: 225px;
+    bottom: 0px;
+}
+.credit-cards{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1200px;
+    height: 448px;
+    gap: 25px;
+}
+.credit-h5{
+    width: 250px;
+    height: 24px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+.credit-span{
+    width: 56px;
+    height: 22px;
+    background-color: #E8F2EE;
+    padding: 2px;
+    border-radius: 2px;
+    color:#5BB5A2;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+}
+.credit-h4{
+    width: 250px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+}
+.h4-span{
+    width: 79px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgb(0, 0, 0, .5);
+}
+.credit-p{
+    width: 275px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: rgb(0, 0, 0, .5);
+}
+.banquee-credit{
+    width: 290px;
+    height: 190px;
+}
+.credit-button{
+    background-color: #5BB5A2;
+    width: 290px;
+    height: 39px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 11px;
+}
+.credit-link{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.main-4{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+.table-hr{
+    margin-bottom: 30px;
+}
+.credit-card-table{
+    width: 1200px;
+    height: 472px;
+}
+.h5-table{
+    width: 111px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+.credit-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.credit-column-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 325px;   
+}
+.table-h3{
+    width: 260px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    height: 25px;
+}
+.table-p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: rgb(0, 0, 0, .5);
+}
+.credit-column-2{
+    width: 260px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+.credit-column-3{
+    width: 260px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+.credit-column-4{
+    width: 260px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+.main-5{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.bank-account-table{
+    width: 1200px;
+    height: 472px;
+}
+.bank-table-h5{
+    width: 132px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+.bank-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.bank-column-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 325px;   
+}
+.bank-table-h3{
+    width: 260px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    height: 25px;
+}
+.bank-table-p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: rgb(0, 0, 0, .5);
+}
+.bank-column-2{
+    width: 260px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+.bank-column-3{
+    width: 260px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+.bank-column-4{
+    width: 260px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+.main-6{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.ft-account-table{
+    width: 1200px;
+    height: 472px;
+}
+.ft-table-h5{
+    width: 140px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+.ft-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.ft-column-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 325px;   
+}
+.ft-table-h3{
+    width: 260px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    height: 25px;
+}
+.ft-table-p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: rgb(0, 0, 0, .5);
+}
+.ft-column-2{
+    width: 260px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+.ft-column-3{
+    width: 260px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+.ft-column-4{
+    width: 260px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+.main-7{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.other-questions{
+    background-color: #5BB5A2;
+    padding: 32px;
+    width: 1200px;
+    height: 130px;
+    border-radius: 8px;
+}
+.compare-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.compare-title{
+    width: 353px;
+    height: 66px;
+    color: white;
+}
+.compare-h1{
+    width: 353px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 120%;
+}
+.compare-h5{
+    width: 172px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+}
+.compare-contact{
+    width: 183px;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.number{
+    width: 135px;
+    color: white;
+}
+.call{
+    width: 140px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+.hotline{
+    width: 106px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+}
+.compare-mail{
+    width: 133px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+.support-mail{
+    width: 94px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+}
+.chat-button{
+    width: 149px;
+    height: 50px;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+.chat-link{
+    width: 101px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: white;
+    text-decoration: none;
+}
+#footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 330px;
+}
+.ft-title{
+    width: 139px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #5BB5A2;
+}
+.footer-nav{
+    width: 680px;
+    height: 167px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ft-nav{
+    width: 150px;
+    height: 167px;
+}
+.blog-ft-1{
+    width: 150px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.column{
+    width: 150px;
+    height: 110px;
+}
+.ft-column{
+    width: 67px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0, .5);
+    text-decoration: none;
+}
+.column-2{
+    margin-bottom: 5px;
+}
+.footer-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 22px;
+    color: rgb(0, 0, 0, .5);
+}
+.ft-span{
+    color: #5BB5A2;
+}
+.footer-title-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 191px;
+    height: 22px;
+}
+.footer-h6{
+    width: 74px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.footer-h6-2{
+    width: 85px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.footer-title-2{
+    width: 311px;
+    height: 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.main-8{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
